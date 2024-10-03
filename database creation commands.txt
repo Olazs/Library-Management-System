@@ -1,0 +1,9 @@
+CREATE DATABASE konyvtar;
+USE konyvtar;
+CREATE TABLE konyvek (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(32),
+    author VARCHAR(32),
+    pages INT,
+    price FLOAT
+);
