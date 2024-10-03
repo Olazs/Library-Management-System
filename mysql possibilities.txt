@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <mysql/mysql.h>
+#include <mysql/mysql.h> // Ha nemtalalja akkor VS-ben: Project Properties -> Configuration Properties -> C/C++ -> General -> Additional Include Directories és itt hozzaadni
 
 struct library {
     char title[32];
